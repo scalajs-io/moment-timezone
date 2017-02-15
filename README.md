@@ -2,16 +2,16 @@ MomentTimezone API for Scala.js
 =======================
 [moment-timezone](https://www.npmjs.com/package/moment-timezone) - Parse and display moments in any timezone.
 
-#### Description
+### Description
 
 Parse and display [moment](https://github.com/scalajs-io/moment)s in any timezone.
 
-#### Build Dependencies
+### Build Dependencies
 
 * [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)x
 
-#### Build/publish the SDK locally
+### Build/publish the SDK locally
 
 ```bash
 $ sbt clean publish-local
@@ -23,7 +23,7 @@ $ sbt clean publish-local
 $ sbt test
 ```
 
-#### Examples
+### Examples
 
 ```scala
 import io.scalajs.npm.moment._
@@ -36,7 +36,7 @@ val output = moment.tz("America/Los_Angeles").format("ha z")
 println(output) // 5am PDT
 ```
 
-#### Artifacts and Resolvers
+### Artifacts and Resolvers
 
 To add the `MomentTimezone` binding to your project, add the following to your build.sbt:  
 
