@@ -8,7 +8,6 @@ Parse and display [moment](https://github.com/scalajs-io/moment)s in any timezon
 
 ### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)x
 
 ### Build/publish the SDK locally
@@ -41,7 +40,7 @@ println(output) // 5am PDT
 To add the `MomentTimezone` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "moment-timezone" % "0.5.11"
+libraryDependencies += "io.scalajs.npm" %%% "moment-timezone" % "0.5.11-2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
