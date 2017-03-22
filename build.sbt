@@ -5,8 +5,8 @@ import sbt._
 
 import scala.language.postfixOps
 
-val apiVersion = "0.5.11-3"
-val scalaJsIOVersion = "0.3.0.7"
+val apiVersion = "0.5.11-4"
+val scalaJsIOVersion = "0.3.0.8"
 val scalaJsVersion = "2.12.1"
 
 homepage := Some(url("https://github.com/scalajs.io/moment-timezone"))
@@ -27,7 +27,7 @@ lazy val root = (project in file(".")).
 	    "org.scala-lang" % "scala-reflect" % scalaJsVersion,
 	    "org.scalatest" %%% "scalatest" % "3.0.1" % "test",
 	    "io.scalajs" %%% "nodejs" % scalaJsIOVersion,
-      "io.scalajs.npm" %%% "moment" % "2.17.1"
+      "io.scalajs.npm" %%% "moment" % "2.17.1-4"
   ))
 
 /////////////////////////////////////////////////////////////////////////////////
